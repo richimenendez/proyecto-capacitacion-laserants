@@ -2,6 +2,7 @@
 ## Ricardo Antonio Menéndez Tobías
 
 ----------
+- ### [Pagina Github Pages](https://richimenendez.github.io/proyecto-capacitacion-laserants/)
 - ### [Diseño en Figma](https://www.figma.com/file/aVwRUyBX798SULjbX8APUH/Capacitaci%C3%B3n?node-id=0%3A1)
   - Dentro de FIGMA se encuentra un maquetado general de los colores y estrucutra que quiero que tenga la página. No es un diseño final.
 - ### Fase 1: 
@@ -17,3 +18,6 @@
 
 ----------
 - #### Imagenes de Fase 1
+![Productos](./imgs/Fase1_1.png)
+![Producto](./imgs/Fase1_2.png)
+![Carrito](./imgs/Fase1_3.png)
