@@ -1,0 +1,74 @@
+:root {
+    --prpl-color: #6930C3,
+    --pry-font: 'Archivo',
+    --scn-font: 'Archivo Black',
+}
+
+body {
+    margin: 0;
+    font-family: 'Archivo',sans-serif;
+  }
+  
+  h1,h2 {
+      font-family: 'Archivo Black', sans-serif;
+      text-transform: uppercase;
+  }
+  h3 {
+      font-family: 'Archivo', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .material-icons {
+      font-size: 400px;  /* Preferred icon size */
+  }
+
+  .no-link-white {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  .no-link-white:hover {
+    text-decoration: none;
+    color: rgb(209, 208, 208);
+  }
+  
+  .no-link-dark {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .ls-btn-green {
+    background-color: #80FFDB;
+    /* border-color: #80FFDB; */
+    font-family: 'Archivo',sans-serif;
+    font-weight: bold;
+  }
+
+  .ls-btn-red {
+    background-color: #DE73E5;
+    /* border-color: #DE73E5; */
+    font-family: 'Archivo',sans-serif;
+    font-weight: bold;
+  }
+
+  .head-text {
+    font-family: 'Archivo Black',sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left:5%
+  }
+
+  .italic-text {
+    font-family: 'Archivo',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .bold-text {
+      font-family: 'Archivo Black'; 
+      margin-left: 3px;
+  }
+  
+  .bold-text2 {
+    font-family: 'Archivo Black';
+}

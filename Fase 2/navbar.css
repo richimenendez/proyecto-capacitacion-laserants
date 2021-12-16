@@ -1,0 +1,27 @@
+
+.navbar-bg {
+    background: #6930C3;
+}
+
+.navbar-ttl {
+    font-size: 2rem;
+}
+
+.navbar-item {
+    margin-inline: 10%;
+}
+
+.navbar-side {
+    width: .3vw;
+}
+
+
+.navbar-center {
+    width: 80%;
+    padding-left: 4%;
+    padding-right: 15%;
+}
+
+.footer {
+
+}
