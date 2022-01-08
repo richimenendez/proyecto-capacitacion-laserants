@@ -39,32 +39,32 @@
 
     <div class="container-fluid mt-5">
         <div class="content2 pt-5">
-            <div class="prod-1">
+            <form class="prod-1" id="form">
                 <div class="prod-2">
-                    <img src="https://coca-colafemsa.com/wp-content/uploads/2020/02/2-30.png" class="prod-img3"/>
+                    <img id="prodImg" src="https://coca-colafemsa.com/wp-content/uploads/2020/02/2-30.png" class="prod-img3"/>
                 </div>
                 <div class="prod-3">
-                    <h1>COCA-COLA LATA 55OML</h1>
+                    <h1 id="prodName">COCA-COLA LATA 55OML</h1>
                     <i class="bi bi-star-fill" style="font-size: 1.3rem;"></i>
                     <i class="bi bi-star-fill" style="font-size: 1.3rem;"></i>
                     <i class="bi bi-star-fill" style="font-size: 1.3rem;"></i>
                     <i class="bi bi-star-fill" style="font-size: 1.3rem;"></i>
                     <i class="bi bi-star-half" style="font-size: 1.3rem;"></i>
-                    <span> #1400 Ventas</span>
-                    <p>
+                    <span id="prodVentas"> #1400 Ventas</span>
+                    <p id="prodDesc">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vero doloribus consequatur accusamus reiciendis excepturi recusandae consequuntur nihil non perspiciatis incidunt fuga officiis possimus, eligendi asperiores, est qui quas voluptatem!
                     </p>
-                    <h2>Q125 c/u</h2>
-                    <input type="number" class="form-control inp-num" value="1" style="width: 50%;">
-                    <button class="ls-btn-green btn btn-success"> AÑADIR AL CARRITO</button>
-                    <p style="font-style: italic;">
+                    <h2  id="prodPrice">Q125 c/u</h2>
+                    <input  id="prodCant" type="number" class="form-control inp-num" value="1" style="width: 50%;">
+                    <button   id="prodButton" class="ls-btn-green btn btn-success" type="submit"> AÑADIR AL CARRITO</button>
+                    <p style="font-style: italic;"   id="prodCats">
                         Categorías: Abcd, Bcda, Cdab, Dabc
                     </p>
                     <div>
                     </div>
                 </div>
             
-            </div>
+            </form>
             <h3 class="head-text pl-5 mt-3"> PRODUCTOS RECOMENDADOS</h3>
             <div class="container">
                 <div class = "row">
@@ -105,6 +105,14 @@
     <footer class="footer">
         <h3>footer</h3>
     </footer>
+
+    <!-- Scripts -->
+    <script src="./src/db_sim.js"></script>
+    <script src="./src/serviceProducto.js"></script>
+    <script src="./src/serviceCarrito.js"></script>
+    <script src="./src/producto/ui_producto.js"></script>
+    <script src="./src/producto/index_producto.js"></script>
+    <!-- end scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>

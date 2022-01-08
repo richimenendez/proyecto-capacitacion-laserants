@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=(t,e)=>{let r=JSON.parse(localStorage.getItem("carrito"));return r[t]?r[t]+=e:r[t]=e,!0};t(1,3),t(1,3),t(2,3),t(3,3),console.log(JSON.parse(localStorage.getItem("carrito"))||{})})();
